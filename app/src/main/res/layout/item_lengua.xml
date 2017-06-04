@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="10dp"
+    card_view:cardUseCompatPadding="true">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="93dp"
+            android:layout_y="5dp"
+            android:text="Lenguas Nativas colombia" />
+
+        <TextView
+            android:id="@+id/departamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="124dp"
+            android:layout_y="30dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="60dp"
+            android:text="Nombre de la Lengua:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nombrelengua"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_x="155dp"
+            android:layout_y="61dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="89dp"
+            android:text="No. Habitantes:"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/habitantes"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="116dp"
+            android:layout_y="90dp"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="13dp"
+            android:layout_y="117dp"
+            android:text="Vitalidad:"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vitalidad"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_x="76dp"
+            android:layout_y="117dp"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hablantes"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_x="278dp"
+            android:layout_y="90dp"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="180dp"
+            android:layout_y="90dp"
+            android:text="No. Hablantes:"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="15dp"
+            android:layout_y="144dp"
+            android:text="Familia Linguistica:"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/familia"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_x="148dp"
+            android:layout_y="143dp"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+    </AbsoluteLayout>
+
+</android.support.v7.widget.CardView>
